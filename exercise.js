@@ -44,10 +44,11 @@ function displayWeekdayMottos() {
         let message = num1 + num2;
         console.log(message);
     }
-    let somenum1 = 2
-    let somenum2 = 8
+    // let n1 = 2
+    // let n2 = 8
 
-    addNumbers(somenum1, somenum2);
+    addNumbers(2, 8);
+    addNumbers(6,7)
     /////////////////////////////////////////////////////////
     function displayReceipt(totalDue, amountPaid){
         let changeDue = totalDue - amountPaid
@@ -58,5 +59,32 @@ function displayWeekdayMottos() {
 
     displayReceipt(sometotalDue, someamountPaid)
 
-    displayMailingLabel(someAddress, someCity);
-    displayMailingLabel(someName, someState);
+    displayMailingLabel("oscar", "1234 a street");
+    displayMailingLabel("billie eilish", "123 Kings road");
+    
+
+    // exercise pg 19
+
+    // function getNumGrandKids(name) { // name is the parameter
+    //     let num = 0;
+    //     if (name == "Dana") {
+    //     num = 6;
+    //     }
+    //     else if (name == "Karla") {
+    //     num = 3;
+    //     }
+    //     else if (name == "Leslye") {
+    //     num = 2;
+    //     }
+    //     return num;
+    //     }
+    //     let num = getNumGrandKids("Dana"); // "Dana" is argument
+    //     console.log(num);
+    //     num = getNumGrandKids("Karla");
+    //     console.log(num);
+        
+
+// function convertFtoC()
+//         let currentTemp = 92;
+//         let celsiusTemp = convertFtoC(currentTemp);
+          
